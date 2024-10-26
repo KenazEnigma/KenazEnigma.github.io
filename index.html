@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shift and Training</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            height: 100%;
+        }
+        .left {
+            flex: 1;
+            background: url('https://i.imgur.com/vVbUs80.png') center / cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative; /* Ensure positioning for the overlay */
+            filter: grayscale(100%);
+            transition: filter 0.3s, background-color 0.3s;
+            cursor: pointer;
+        }
+        .left:hover {
+            filter: grayscale(0%);
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .right {
+            flex: 1;
+            background: url('https://i.imgur.com/ybVC13o.png') center / cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative; /* Ensure positioning for the overlay */
+            filter: grayscale(100%);
+            transition: filter 0.3s, background-color 0.3s;
+            cursor: pointer;
+        }
+        .right:hover {
+            filter: grayscale(0%);
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .text {
+            position: relative;
+            z-index: 3; /* Ensure text is above the overlay */
+            color: white;
+            font-size: 4rem; /* Font size as specified */
+            font-weight: bold;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left" onclick="window.location.href='YOUR_LEFT_LINK'">
+            <div class="text">Shift</div>
+        </div>
+        <div class="right" onclick="window.location.href='YOUR_RIGHT_LINK'">
+            <div class="text">Training</div>
+        </div>
+    </div>
+</body>
+</html>
