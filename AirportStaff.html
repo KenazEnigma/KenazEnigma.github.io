@@ -1203,7 +1203,7 @@ Send two messages from the script at a time, keep it at a good pace and do not r
 
 
 <body>
-<p style="color:Black; font-family:arial; font-size:110%" >1. What is one type of ticket passengers can recieve?<br>Answer: Economy, first class, business ticket</p>
+<p style="color:Black; font-family:arial; font-size:110%" >What is one type of ticket passengers can recieve?<br>Answer: Economy, first class, business ticket</p>
 </body>
 
 <script>
@@ -1218,7 +1218,7 @@ Send two messages from the script at a time, keep it at a good pace and do not r
 </script>
 
 <!-- Single button with the text manually added -->
-<button style="background-color:DarkGrey; border-color:DarkBlue; color:white; font-size:110%" onclick="copyText(this)">/e :pm %airport 1. What is one type of ticket passengers can receive? </button>
+<button style="background-color:DarkGrey; border-color:DarkBlue; color:white; font-size:110%" onclick="copyText(this)">/e :pm %airport <b>[number]</b> What is one type of ticket passengers can receive? </button>
 
 
 
@@ -1228,7 +1228,7 @@ Send two messages from the script at a time, keep it at a good pace and do not r
 
 
 <body>
-<p style="color:Black; font-family:arial; font-size:110%" >2. How do you hand out tickets?<br>Answer: Click the computer/at the front desk.</p>
+<p style="color:Black; font-family:arial; font-size:110%" >How do you hand out tickets?<br>Answer: Click the computer/at the front desk.</p>
 </body>
 
 <script>
@@ -1243,7 +1243,7 @@ Send two messages from the script at a time, keep it at a good pace and do not r
 </script>
 
 <!-- Single button with the text manually added -->
-<button style="background-color:DarkGrey; border-color:DarkBlue; color:white; font-size:110%" onclick="copyText(this)">/e :pm %airport 2. How do you hand out tickets?</button>
+<button style="background-color:DarkGrey; border-color:DarkBlue; color:white; font-size:110%" onclick="copyText(this)">/e :pm %airport <b>[number]</b> How do you hand out tickets?</button>
 
 
 
@@ -1253,7 +1253,7 @@ Send two messages from the script at a time, keep it at a good pace and do not r
 
 
 <body>
-<p style="color:Black; font-family:arial; font-size:110%" >3. Do exploiters get warnings?<br>Answer: No warnings.</p>
+<p style="color:Black; font-family:arial; font-size:110%" >Do exploiters get warnings?<br>Answer: No warnings.</p>
 </body>
 
 <script>
@@ -1268,7 +1268,7 @@ Send two messages from the script at a time, keep it at a good pace and do not r
 </script>
 
 <!-- Single button with the text manually added -->
-<button style="background-color:DarkGrey; border-color:DarkBlue; color:white; font-size:110%" onclick="copyText(this)">/e :pm %airport 3. Do exploiters get warnings?</button>
+<button style="background-color:DarkGrey; border-color:DarkBlue; color:white; font-size:110%" onclick="copyText(this)">/e :pm %airport <b>[number]</b> Do exploiters get warnings?</button>
 
 
 
@@ -1278,7 +1278,7 @@ Send two messages from the script at a time, keep it at a good pace and do not r
 
 
 <body>
-<p style="color:Black; font-family:arial; font-size:110%" >4. Which rank do you call for exploiters?<br>Answer: Any MR or HR.</p>
+<p style="color:Black; font-family:arial; font-size:110%" >Which rank do you call for exploiters?<br>Answer: Any MR or HR.</p>
 </body>
 
 <script>
@@ -1293,10 +1293,35 @@ Send two messages from the script at a time, keep it at a good pace and do not r
 </script>
 
 <!-- Single button with the text manually added -->
-<button style="background-color:DarkGrey; border-color:DarkBlue; color:white; font-size:110%" onclick="copyText(this)">/e :pm %airport 4. Which rank do you call for exploiters?</button>
+<button style="background-color:DarkGrey; border-color:DarkBlue; color:white; font-size:110%" onclick="copyText(this)">/e :pm %airport <b>[number]</b> Which rank do you call for exploiters?</button>
 
 
 
+<br>
+<br>
+
+
+
+<body>
+<p style="color:Black; font-family:arial; font-size:110%" >How many warnings do trollers get?<br>Answer: One warning.</p>
+</body>
+
+<script>
+    function copyText(button) {
+        // Change the clicked button's background color to light grey
+        button.style.backgroundColor = "lightgrey";
+        
+        // Copy text into clipboard
+        const textToCopy = button.innerHTML; // Get the text from the button
+        navigator.clipboard.writeText(textToCopy);
+    }
+</script>
+
+<!-- Single button with the text manually added -->
+<button style="background-color:DarkGrey; border-color:DarkBlue; color:white; font-size:110%" onclick="copyText(this)">/e :pm %airport <b>[number]</b> How many warnings do trollers get?</button>
+
+	
+	
 <br>
 <br>
 <br>
