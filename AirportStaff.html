@@ -70,10 +70,31 @@ Send two messages from the script at a time, keep it at a good pace and do not r
 </script>
 
 <!-- Single button with the text manually added -->
-<button style="background-color:DodgerBlue; border-color:DarkBlue; color:white; font-size:110%" onclick="copyText(this)">Hello! My name is Kenaz, and I will be your Lead Trainer for this training session.. I wish you all the best of luck!</button>
+<button style="background-color:DodgerBlue; border-color:DarkBlue; color:white; font-size:110%" onclick="copyText(this)">Hello! My name is <b>username</b>, and I will be your Lead Trainer for this training session.. I wish you all the best of luck!</button>
 
 
 
+<br>
+<br>
+
+
+	
+<script>
+    function copyText(button) {
+        // Change the clicked button's background color to light grey
+        button.style.backgroundColor = "lightgrey";
+        
+        // Copy text into clipboard
+        const textToCopy = button.innerHTML; // Get the text from the button
+        navigator.clipboard.writeText(textToCopy);
+    }
+</script>
+
+<!-- Single button with the text manually added -->
+<button style="background-color:DarkBlue; border-color:DarkBlue; color:white; font-size:110%" onclick="copyText(this)">Hello! My name is <b>username</b> and I will be your Assistant Trainer for this training session! I wish you all the best of luck!</button>
+
+
+	
 <br>
 <br>
 
@@ -777,7 +798,7 @@ Send two messages from the script at a time, keep it at a good pace and do not r
 </script>
 
 <!-- Single button with the text manually added -->
-<button style="background-color:DodgerBlue; border-color:DarkBlue; color:white; font-size:110%"onclick="copyText(this)">Great, that concludes Airport Staff Information. We will now be moving onto how to properly greet and hand tickets out to passengers.
+<button style="background-color:DarkBlue; border-color:DarkBlue; color:white; font-size:110%"onclick="copyText(this)">Great, that concludes Airport Staff Information. We will now be moving onto how to properly greet and hand tickets out to passengers.
 </button>
 
 
@@ -799,7 +820,7 @@ Send two messages from the script at a time, keep it at a good pace and do not r
 </script>
 
 <!-- Single button with the text manually added -->
-<button style="background-color:DodgerBlue; border-color:DarkBlue; color:white; font-size:110%"onclick="copyText(this)">For this portion, you will have 1 minute to prepare a greeting. A good idea would be to copy your greeting for the future!
+<button style="background-color:DarkBlue; border-color:DarkBlue; color:white; font-size:110%"onclick="copyText(this)">For this portion, you will have 1 minute to prepare a greeting. A good idea would be to copy your greeting for the future!
 </button>
 
 
@@ -821,7 +842,7 @@ Send two messages from the script at a time, keep it at a good pace and do not r
 </script>
 
 <!-- Single button with the text manually added -->
-<button style="background-color:DodgerBlue; border-color:DarkBlue; color:white; font-size:110%"onclick="copyText(this)">This portion will also be graded, therefore you will earn 1 point. To get this point, you must state a name, a hello phrase, and a welcoming phrase to the group.
+<button style="background-color:DarkBlue; border-color:DarkBlue; color:white; font-size:110%"onclick="copyText(this)">This portion will also be graded, therefore you will earn 1 point. To get this point, you must state a name, a hello phrase, and a welcoming phrase to the group.
 </button>
 
 
@@ -843,7 +864,7 @@ Send two messages from the script at a time, keep it at a good pace and do not r
 </script>
 
 <!-- Single button with the text manually added -->
-<button style="background-color:DodgerBlue; border-color:DarkBlue; color:white; font-size:110%"onclick="copyText(this)">When a passenger comes up to the desk, you should immediately state your greeting and give them the desired ticket they request.
+<button style="background-color:DarkBlue; border-color:DarkBlue; color:white; font-size:110%"onclick="copyText(this)">When a passenger comes up to the desk, you should immediately state your greeting and give them the desired ticket they request.
 </button>
 
 
@@ -865,7 +886,7 @@ Send two messages from the script at a time, keep it at a good pace and do not r
 </script>
 
 <!-- Single button with the text manually added -->
-<button style="background-color:DodgerBlue; border-color:DarkBlue; color:white; font-size:110%"onclick="copyText(this)">Here is an example of a greeting: “Hello, welcome to the Liberty Airport! I’m [username], an Airport Staff Member here. How can I help you on this great day?”
+<button style="background-color:DarkBlue; border-color:DarkBlue; color:white; font-size:110%"onclick="copyText(this)">Here is an example of a greeting: “Hello, welcome to the Liberty Airport! I’m [username], an Airport Staff Member here. How can I help you on this great day?”
 </button>
 
 
@@ -887,7 +908,7 @@ Send two messages from the script at a time, keep it at a good pace and do not r
 </script>
 
 <!-- Single button with the text manually added -->
-<button style="background-color:DodgerBlue; border-color:DarkBlue; color:white; font-size:110%"onclick="copyText(this)">Please prepare your greetings now. Once you are done, say it out loud and we will provide feedback for your benefit.
+<button style="background-color:DarkBlue; border-color:DarkBlue; color:white; font-size:110%"onclick="copyText(this)">Please prepare your greetings now. Once you are done, say it out loud and we will provide feedback for your benefit.
 </button>
 
 
